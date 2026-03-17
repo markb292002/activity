@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Motor Parts Shop</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background:#f4f4f4;
+}
+
+header{
+    background:#1f2937;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+nav{
+    background:#374151;
+    padding:10px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    margin:0 15px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.container{
+    padding:20px;
+}
+
+.parts{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    border-radius:10px;
+    padding:15px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.2);
+    text-align:center;
+}
+
+.card img{
+    width:100%;
+    height:150px;
+    object-fit:cover;
+    border-radius:8px;
+}
+
+.price{
+    color:green;
+    font-size:18px;
+    margin:10px 0;
+}
+
+button{
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:10px 15px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#1e40af;
+}
+
+footer{
+    background:#1f2937;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Motor Parts Store</h1>
+<p>Quality Parts for Your Motorcycle</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Parts</a>
+<a href="#">Contact</a>
+</nav>
+
+<div class="container">
+<h2>Popular Motor Parts</h2>
+
+<div class="parts">
+
+<div class="card">
+<img src="https://via.placeholder.com/300x150" alt="Piston">
+<h3>Piston Kit</h3>
+<p>High performance piston for motorcycles.</p>
+<p class="price">$45</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://via.placeholder.com/300x150" alt="Spark Plug">
+<h3>Spark Plug</h3>
+<p>Durable spark plug for better ignition.</p>
+<p class="price">$10</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://via.placeholder.com/300x150" alt="Brake Pads">
+<h3>Brake Pads</h3>
+<p>Reliable brake pads for safe riding.</p>
+<p class="price">$25</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://via.placeholder.com/300x150" alt="Chain">
+<h3>Motor Chain</h3>
+<p>Strong chain for smooth power transfer.</p>
+<p class="price">$35</p>
+<button>Add to Cart</button>
+</div>
+
+</div>
+</div>
+
+<footer>
+<p>© 2026 Motor Parts Store</p>
+</footer>
+
+</body>
+</html>
